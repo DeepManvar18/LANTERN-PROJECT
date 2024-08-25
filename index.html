@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulf Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="gulf travel logo.png" alt="Gulf Travel">
+                <div class="text">
+                    Gulf Travel & Tourism LLC
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="login-section">
+                <button class="login-btn">Login</button>
+                <select class="currency-select">
+                    <option value="AED">AED</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>TRAVEL EFFORTLESSLY</h1>
+            <div class="search-container">
+                <div class="search-options">
+                    <button class="active">Flights</button>
+                    <button>Hotels</button>
+                    <button>Car Rental</button>
+                    <button>Explore</button>
+                </div>
+                <form class="search-form">
+                    <div class="form-group">
+                        <label>From</label>
+                        <input type="text" placeholder="Dubai (DXB)">
+                    </div>
+                    <div class="form-group">
+                        <label>To</label>
+                        <input type="text" placeholder="Santorini (JTR)">
+                    </div>
+                    <div class="form-group">
+                        <label>Departure Date</label>
+                        <input type="date" value="2023-11-12">
+                    </div>
+                    <div class="form-group">
+                        <label>Return Date</label>
+                        <input type="date" placeholder="Add return date">
+                    </div>
+                    <div class="form-group">
+                        <label>Travellers & Class</label>
+                        <input type="text" placeholder="1 Adult, Economy/Premium Economy">
+                    </div>
+                    <div class="form-group">
+                        <label>Trip Type</label>
+                        <select>
+                            <option value="roundtrip">Round Trip</option>
+                            <option value="oneway">One Way</option>
+                            <option value="multicity">Multicity</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="search-btn">Search Flights</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular-destinations">
+        <div class="container">
+            <h2>Top 10 Popular Destinations</h2>
+            <a href="#" class="find-out-more">Find out more</a>
+            <div class="destinations-slider">
+                <div class="slide">
+                    <img src="vietnam.jfif" alt="Vietnam">
+                    <div class="slide-text">
+                        <h3>Vietnam</h3>
+                        <p>Experience Vietnam's rich tapestry of culture, stunning landscapes, and delectable cuisine.</p>
+                    </div>
+                </div>
+
+                  </div>
+                <!-- Add more slides as needed -->
+            </div>
+
+            
+            <div class="slider-indicator">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="grand-offers">
+        <div class="container">
+            <h2>Grand Offers</h2>
+            <div class="offers-nav">
+                <button class="active">Flights</button>
+                <button>Bank Offers</button>
+                <button>Hotels</button>
+                <button>All Offers</button>
+            </div>
+            <div class="offers-list">
+                <div class="offer-card">
+                    <img src="spain img.jfif" alt="Spain">
+                    <div class="offer-details">
+                        <span class="offer-type">FLIGHTS</span>
+                        <h3>Spain is calling you! The best offers ever await you.</h3>
+                        <p>Get FLAT 20% Off on your air tickets to Spain.</p>
+                        <span class="tandc">T&C's Apply</span>
+                        <button class="book-now">BOOK NOW</button>
+                    </div>
+                </div>
+
+
+                <div class="offers-list">
+                    <div class="offer-card">
+                        <img src="tajhotel.jfif" alt="tajhotel">
+                        <div class="offer-details">
+                            <span class="offer-type">HOTELS</span>
+                            <h3>Honeymoon at the Taj Mumbai?It can’t get better than that!</h3>
+                            <p>+ get FLAT 40% OFF on your 1st hotel booking</p>
+                            <span class="tandc">T&C's Apply</span>
+                            <button class="book-now">BOOK NOW</button>
+                        </div>
+                    </div>
+                <!-- Repeat for other offers -->
+            </div>
+
+
+            <div class="offers-list">
+                <div class="offer-card">
+                    <img src="dubaiimg.jfif" alt="tajhotel">
+                    <div class="offer-details">
+                        <span class="offer-type">FLIGHTS</span>
+                        <h3>Dubai is ready for your arrival.
+                            Are you? The Best for You!</h3>
+                        <p>+ get FLAT 20% OFF on your Dubai trip</p>
+                        <span class="tandc">T&C's Apply</span>
+                        <button class="book-now">BOOK NOW</button>
+                    </div>
+                </div>
+            <!-- Repeat for other offers -->
+        </div>
+
+
+
+
+        
+        <div class="offers-list">
+            <div class="offer-card">
+                <img src="newyorkimg.jfif" alt="tajhotel">
+                <div class="offer-details">
+                    <span class="offer-type">HOTELS</span>
+                    <h3>Fly to New York & stay at The Plaza! Christmas Special.</h3>
+                    <p>+ get FLAT 35% OFF on your flight & hotel booking</p>
+                    <span class="tandc">T&C's Apply</span>
+                    <button class="book-now">BOOK NOW</button>
+                </div>
+            </div>
+        <!-- Repeat for other offers -->
+    </div>
+            <a href="#" class="view-all">View All</a>
+        </div>
+    </section>
+
+    <section class="top-sights">
+        <div class="container">
+            <h2>Top 10 Sights</h2>
+            <a href="#" class="find-out-more">Find out more</a>
+            <div class="sights-grid">
+                <div class="sight-card">
+                    <img src="effiel tower.jfif" alt="Eiffel Tower">
+                    <div class="sight-text">
+                        <h3>Eiffel Tower</h3>
+                        <p>Indulge in the art, culture, and romance of Paris!</p>
+                    </div>
+                </div>
+                <div class="sight-card">
+                    <img src="burj khalifa.jfif" alt="Burj Al Arab">
+                    <div class="sight-text">
+                        <h3>Burj Al Arab</h3>
+                        <p>Discover the vibrant charm of Burj Al Arab.</p>
+                    </div>
+                </div>
+                <div class="sight-card">
+                    <img src="taj mahal.jfif" alt="Taj Mahal">
+                    <div class="sight-text">
+                        <h3>Taj Mahal</h3>
+                        <p>Revel in the architectural marvels of India.</p>
+                    </div>
+                </div>
+                <!-- Add more sight-cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section class="map-locations">
+        <div class="container">
+            <h2>Map your locations</h2>
+            <div class="map-container">
+                <img src="map.png" alt="Map">
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What our customers say about us</h2>
+        <div class="testimonial">
+            <p>Booking flights has never been easier! Gulf Travelz 
+                provided me with a seamless online experience, 
+                making my travel plans a breeze.
+                </p>
+            <span>Franklin C</span>
+        </div>
+        <div class="testimonial">
+            <p>Of all the various portals that I’ve tried, Gulf Travelz  is at the very top of that list. They have everything you need, making life really a breeze.</p>
+            <span>Tracy D</span>
+        </div>
+        <button>See all +</button>
+    </section>
+
+    <section class="news-updates">
+        <h2>Flights News and Updates</h2>
+        <div class="news-item">
+            <img src="adfca5a5969e0934bad9e2e852bd1015.jfif" alt="News 1">
+            <p>Feel the Luxury on water.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="news-item">
+            <img src="solo travel.jfif" alt="News 2">
+            <p>5 Tips for Solo Travelling</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="news-item">
+            <img src="destination 2.jfif" alt="News 3">
+            <p>Incredible Inspiring and Iconic</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="news-item">
+            <img src="pool.jfif" alt="News 4">
+            <p>Swim in the most authentic pool</p>
+            <a href="#">Read More</a>
+        </div>
+        <button>See all +</button>
+    </section>
+
+
+    <div class="container">
+        <section class="why-gulf-travel">
+            <h2>Why Gulf Travel?</h2>
+            <p>Gulf Travel offers attractive deals, competitive airfares, exclusive discounts, and a smooth online booking process to our customer base.</p>
+            <p>Booking flights through our user-friendly desktop and mobile site ensures a hassle-free experience. Additionally, we continually enhance our offerings, including unmatched prices, multi-faceted services, ease of accessibility, and more, catering to the evolving preferences and demands of people across the UAE and the world.</p>
+        </section>
+
+        <section class="why-book-flights">
+            <h2>Why book flights via Gulf Travel?</h2>
+            <p>At Gulf Travel, you can discover fantastic deals and budget-friendly air tickets to your desired destinations by booking through our user-friendly website. We prioritize customer satisfaction and provide a dedicated 24/7 helpline to address any queries or concerns. We take pride in fulfilling the travel aspirations of individuals seeking a quick and seamless experience in finding air tickets. Start your journey today by securing the most affordable flights of your choice.</p>
+        </section>
+
+        <section class="product-offering">
+            <h2>Product Offering</h2>
+            <ul>
+                <li>Flights</li>
+                <li>International Flights</li>
+                <li>Hotels</li>
+                <li>International Hotels</li>
+                <li>Corporate Travel</li>
+                <li>Book Flights From UAE</li>
+                <li>Travel Blog</li>
+            </ul>
+        </section>
+
+        <section class="top-hotels">
+            <h2>Top Hotels in Dubai</h2>
+            <ul>
+                <li>Burj Al Arab</li>
+                <li>One&Only The Palm</li>
+                <li>Raffles The Palm Dubai</li>
+                <li>Armani Hotel Dubai</li>
+                <li>Mandarin Oriental Jumeira</li>
+                <li>Madinat Jumeirah</li>
+                <li>Atlantis The Palm</li>
+            </ul>
+        </section>
+
+        <section class="quick-links">
+            <h2>Quick Links</h2>
+            <ul>
+                <li>Dubai USA Flights</li>
+                <li>France Italy Flights</li>
+                <li>Canada India Flights</li>
+                <li>USA Japan Flights</li>
+                <li>London Italy Flights</li>
+                <li>India Latin America Flights</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="footer">
+        <div class="footer-menu">
+          <ul class="menu-column">
+            <li>About</li>
+            <li>How We Work</li>
+            <li>Customer Support</li>
+            <li>Offers</li>
+          </ul>
+          <ul class="menu-column">
+            <li>Refund Policy</li>
+            <li>Payment Security</li>
+            <li>Affiliate</li>
+            <li>Help/FAQ</li>
+          </ul>
+        </div>
+        <div class="newsletter-signup">
+          <p>SIGN UP FOR NEWSLETTER</p>
+          <input type="email" placeholder="Enter Your Email Here">
+        </div>
+        <div class="footer-bottom">
+          <p>©GULF TRAVEL 2023. ALL RIGHTS RESERVED.</p>
+          <div class="social-icons">
+            <img src="facebook.png" alt="Facebook">
+            <img src="twitter.png" alt="Twitter">
+            <img src="instagram.png" alt="Instagram">
+          </div>
+          <p>Tags | Legal Disclaimer | Privacy Policy | User Agreement</p>
+        </div>
+      </div>
